@@ -1,23 +1,89 @@
-/*
-Errno::ENOENT: No such file or directory - sass/style.scss
+body {
+  margin: auto;
+}
 
-Backtrace:
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:482:in `read'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:293:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin.rb:108:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:384:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/bin/sass:13:in `<top (required)>'
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - sass/style.scss"; }
+header {
+  background-color: #eee h1;
+  background-color-font: Limelight, sans-serif;
+}
+
+#navcontainer {
+  width: 100%;
+  height: 15px;
+}
+
+#navlist {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline;
+}
+#navlist a:hover {
+  color: #fff;
+  background-color: #b82f5f;
+  text-decoration: none;
+}
+#navlist a:link, #navlist a:visited {
+  color: #fff;
+  background-color: #b82f5f;
+  text-decoration: none;
+}
+
+h2 {
+  font: Pathway Gothic One, sans-serif;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+
+#navlist a {
+  padding: 3px 10px;
+  color: #b82f5f;
+}
+
+#navlist a:link, #navlist a:visited {
+  color: #b82f5f;
+  background-color: #eee;
+  text-decoration: none;
+}
+
+main h1 {
+  font-family: Limelight, sans-serif;
+  font-size: 100px;
+  color: #b82f5f;
+  line-height: 0px;
+}
+main img {
+  padding-left: 50px;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  line-height: 0px;
+  font-size: 25px;
+  color: #5a5657;
+  padding-left: 75px;
+}
+
+h3 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 30px;
+  color: #b82f5f;
+  padding-left: 200px;
+}
+
+h4 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  color: #b82f5f;
+  padding-left: 200px;
+}
+
+p {
+  width: 500px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 12px;
+  color: #5a5657;
+  padding-left: 200px;
+}
