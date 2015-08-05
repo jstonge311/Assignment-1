@@ -10,21 +10,31 @@
    <body>
    <header>
    <h1>Bookstore</h1>
-   <div id="navcontainer">
-   <ul id="navlist">
-   <h2><li><a href="#">Art</a></li></h2>
-   <h2><li><a href="#">Engineering</a></li></h2>
+   <nav>
+   <div>
+   <ul>
+      <h2><li><a href="#art">Art</a></li></h2>
+      <h2><li>|</li></h2>
+      <h2><li><a href="#engineering">Engineering</a></li></h2>
    </ul>
    </div>
+   </nav>
    </header>
    <main>
-            <h3>Artists</h3>
-               <h4>Salvador Dalí</h4>
-               <img src="img/Salvador_Dali_NYWTS.jpg" width="250" alt="Salvador Dali and an ocelot">
-               <p>Dalí was a skilled draftsman, best known for the striking and bizarre images in his surrealist work. His painterly skills are often attributed to the influence of Renaissance masters. His best-known work, <i>The Persistence of Memory</i>, was completed in August 1931. Dalí’s expansive artistic répertoire included film, sculpture, and photography, in collaboration with a range of artists in a variety of media.</p>
-            <h3>Computer Engineers</h3>
-                <h4>Tim Berners-Lee</h4>
-                <img src="img/TimBernersLee.jpg" width="250" alt="Tim Berners-Lee, founder of the Internet">
+   <a name=art></a>
+         <h3>Artists</h3>
+         <img src="img/Salvador_Dali_NYWTS.jpg" width="250" alt="Salvador Dali and an ocelot">
+   <div>
+         <h4>Salvador Dalí</h4>
+         <p>Dalí was a skilled draftsman, best known for the striking and bizarre images in his surrealist work. His painterly skills are often attributed to the influence of Renaissance masters. His best-known work, <i>The Persistence of Memory</i>, was completed in August 1931. Dalí’s expansive artistic répertoire included film, sculpture, and photography, in collaboration with a range of artists in a variety of media.</p>
+   </div>
+   <a name=engineering></a>
+         <h3>Computer Engineers</h3>
+         <img src="img/TimBernersLee.jpg" width="250" alt="Tim Berners-Lee, founder of the Internet">
+   <div>
+         <h4>Tim Berners-Lee</h4>
+         <p>Sir Tim Berners-Lee invented the World Wide Web in 1989 while working as a software engineer at CERN, the large particle physics laboratory near Geneva, Switzerland.</p>
+   </div>
    </main>
    </body>
 </html>
