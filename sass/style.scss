@@ -1,0 +1,74 @@
+@import "_base.css";
+
+$font-stack: 'Pathway Gothic One', sans-serif;
+$font-stack2: 'Limelight', sans-serif;
+
+body {
+   margin: auto;
+}
+header {
+      h1{
+         padding: 20px 0 0 20px;
+         font-size: 5rem;
+         font-family: $font-stack2;
+         color: #b82f5f;
+         }
+      div {
+         width: 100%;
+         height: 50px;
+         background-color: #eee;
+      }
+      li {
+            margin-left: 40px;
+            font-size: 2rem;
+            font-family: $font-stack;
+            display: inline;
+            float: left;
+            color: #b82f5f;
+            padding-top: 8px;
+         }
+         a{
+            &:link, &:visited {
+            color: #b82f5f;
+            text-decoration: none;
+            }
+            &:hover {
+            color: #5a5657;
+            text-decoration: none;
+            }
+         }
+      }
+
+main {
+   font-family:$font-stack;
+   img {
+      float: left;
+      padding: 50px;
+      clear: both;
+   }
+   div {
+      padding-top: 50px;
+      float: left;
+      clear: right;
+      &:nth-child(2) {
+         clear: both;
+      }
+   }
+   h3{
+      font-family:$font-stack2;
+      font-size: 2rem;
+      color: #b82f5f;
+      padding: 75px 0 0 50px;
+      clear: both;
+   }
+   h4{
+      font-size: 1.8rem;
+      color: #b82f5f;
+   }
+   p {
+      width: 200px;
+      padding-top: 20px;
+      font-size: 1rem;
+      color: #5a5657;
+   }
+}
